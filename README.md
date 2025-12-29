@@ -16,13 +16,22 @@ A tool to check if the fiber internet is available at your address.
 ## ToDo 📋
 - Add more ISPs
     - ✅ Ezee Fiber https://ezeefiber.com/
-    - Ripple fiber - https://ripplefiber.com/availability-checker 
+    - ✅ Ripple fiber - https://ripplefiber.com/availability-checker 
     - AT&T fiber - 
     - T-Mobile fiber - 
     - Astound - https://www.astound.com/chicago/internet/gig/
         (RCN, Grande, Wave, enTouch, and Digital West are now Astound)
+- Add handling of positive scenario
+    - Check which message each page shows when there is service.
 - Add Slack notification. 
+    - Or https://ntfy.sh/ for push notification.
+- Add error handling that takes a screenshot if an error occurs.
 - Add scheduled test run
     - Satup on the home desktop
 - Containerize it 
     - Set up on RPI or NAS Docker container
+
+---
+### Issues 
+- isp/test_ripple_fiber.py
+    Fails if run in headless mode.

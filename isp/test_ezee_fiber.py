@@ -1,5 +1,5 @@
 """
-Docstring for isp.test_ezee_fiber
+Check if Ezee Fiber ISP has services at a specific address
 pytest -vs isp/test_ezee_fiber.py
 """
 
