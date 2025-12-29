@@ -4,8 +4,8 @@ A tool to check if the fiber internet is available at your address.
 ## Setup 🛠️
 `python -m venv .venv` make virtual environment  
 `source .venv/bin/activate` activate virtual environment  
-`pip install -r requirements.txt` install dependancies
-`playwright install` complete PlayWright installation
+`pip install -r requirements.txt` install dependancies  
+`playwright install` complete PlayWright installation  
 
 ## Run checks 🏃‍♀️
 `pytest` Will run test files in the "isp" directory.  
