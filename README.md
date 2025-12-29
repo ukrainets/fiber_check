@@ -1,19 +1,19 @@
-# fiber_check
+# fiber_check ⚡️ 🛜 ✅
 A tool to check if the fiber internet is available at your address. 
 
-## Setup
-`python -m venv .venv`
-`source .venv/bin/activate`
-`pip install -r requirements.txt`
-`playwright install`
+## Setup 🛠️
+`python -m venv .venv` make virtual environment  
+`source .venv/bin/activate` activate virtual environment  
+`pip install -r requirements.txt` install dependancies
+`playwright install` complete PlayWright installation
 
-## Run checks
-`pytest` Will run test files in the "isp" directory.
-`pytest tests/test_example.py` to check if PlayWright works ok.
+## Run checks 🏃‍♀️
+`pytest` Will run test files in the "isp" directory.  
+`pytest tests/test_example.py` to check if PlayWright works ok.  
 
 ---
 
-## ToDo
+## ToDo 📋
 - Add more ISPs
     - ✅ Ezee Fiber https://ezeefiber.com/
     - Ripple fiber - https://ripplefiber.com/availability-checker 
