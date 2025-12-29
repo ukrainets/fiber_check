@@ -1,5 +1,5 @@
 """
-Simple test to verify internet contectivity and corectness ow Playwright installation
+Simple test to verify internet connectivity and correctness of Playwright installation
 pytest -vs tests/test_example.py
 """
 from playwright.sync_api import Page, expect
