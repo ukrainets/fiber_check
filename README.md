@@ -35,7 +35,7 @@ A tool to check if the fiber internet is available at your address.
         (RCN, Grande, Wave, enTouch, and Digital West are now Astound)
 - Add handling of positive scenario
     - Check which message each page shows when there is service.
-- Add Slack notification. 
+- ✅ Add Slack notification. 
     - Or https://ntfy.sh/ for push notification.
 - Add error handling that takes a screenshot if an error occurs.
 - Add scheduled test run
