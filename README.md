@@ -1,4 +1,4 @@
-# fiber_check ⚡️ 🛜 ✅
+# fiber_check ⚡️🛜 ✅
 A tool to check if the fiber internet is available at your address.  
 It primarily checks the ISPs that are available in the Greater Chicago area.  
 
@@ -7,13 +7,14 @@ It primarily checks the ISPs that are available in the Greater Chicago area.
 - [Ezee Fiber](https://ezeefiber.com/)
 - [Ripple fiber](https://ripplefiber.com/availability-checker)
 - [Astound](https://www.astound.com/chicago/internet/gig/)
-
+- WIP:[AT&T](https://www.att.com/internet/fiber/)
 
 ## Setup 🛠️
 1. `python -m venv .venv` - make virtual environment  
 2. `source .venv/bin/activate` - activate virtual environment  
 3. `pip install -r requirements.txt` - install dependancies  
-4. `playwright install` - complete PlayWright installation  
+4. `playwright install` - complete PlayWright installation
+5. Create `.env` file and populate it with your address. See `.env.example`
 
 ## Run checks 🏃‍♀️
 `pytest tests/test_example.py` To check if PlayWright works correctly.  
@@ -41,7 +42,7 @@ It primarily checks the ISPs that are available in the Greater Chicago area.
     - ✅ T-Mobile fiber - https://fiber.t-mobile.com/check-address
     - ✅ Astound - https://www.astound.com/chicago/internet/gig/
         (RCN, Grande, Wave, enTouch, and Digital West are now Astound)
-    - AT&T fiber - https://www.att.com/internet/fiber/
+    - ⚠️ AT&T fiber - https://www.att.com/internet/fiber/
 - Refactor to run tests in parallel
 - Add better handling for the cookie pop-up (T-Mobile)
 - Add handling of positive scenario
@@ -56,6 +57,7 @@ It primarily checks the ISPs that are available in the Greater Chicago area.
 
 ---
 ### Issues 
-- isp/test_ripple_fiber.py and isp/test_tmobile_fiber.py
+- AT&T block automation activity `isp/test_att_fiber.py`. 
+- `isp/test_ripple_fiber.py` and `isp/test_tmobile_fiber.py`
     Fails if run in headless mode.
 
