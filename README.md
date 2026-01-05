@@ -29,10 +29,11 @@ A tool to check if the fiber internet is available at your address.
 - Add more ISPs
     - ✅ Ezee Fiber https://ezeefiber.com/
     - ✅ Ripple fiber - https://ripplefiber.com/availability-checker 
-    - AT&T fiber - https://www.att.com/internet/fiber/
     - ✅ T-Mobile fiber - https://fiber.t-mobile.com/check-address
-    - Astound - https://www.astound.com/chicago/internet/gig/
+    - ✅ Astound - https://www.astound.com/chicago/internet/gig/
         (RCN, Grande, Wave, enTouch, and Digital West are now Astound)
+    - AT&T fiber - https://www.att.com/internet/fiber/
+- Refactor to run tests in parallel
 - Add better handling for the cookie pop-up (T-Mobile)
 - Add handling of positive scenario
     - Check which message each page shows when there is service.
