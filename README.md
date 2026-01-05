@@ -1,5 +1,12 @@
 # fiber_check ⚡️ 🛜 ✅
-A tool to check if the fiber internet is available at your address. 
+A tool to check if the fiber internet is available at your address.  
+It primarily checks the ISPs that are available in the Greater Chicago area.  
+
+**Supported ISPs**:  
+- [T-Mobile fiber](https://ripplefiber.com/availability-checker)
+- [Ezee Fiber](https://ezeefiber.com/)
+- [Ripple fiber](https://ripplefiber.com/availability-checker)
+- [Astound](https://www.astound.com/chicago/internet/gig/)
 
 ## Setup 🛠️
 `python -m venv .venv` make virtual environment  
