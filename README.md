@@ -3,20 +3,22 @@ A tool to check if the fiber internet is available at your address.
 It primarily checks the ISPs that are available in the Greater Chicago area.  
 
 **Supported ISPs**:  
-- [T-Mobile fiber](https://ripplefiber.com/availability-checker)
+- [T-Mobile fiber](https://fiber.t-mobile.com/check-address)
 - [Ezee Fiber](https://ezeefiber.com/)
 - [Ripple fiber](https://ripplefiber.com/availability-checker)
 - [Astound](https://www.astound.com/chicago/internet/gig/)
 
+
 ## Setup 🛠️
-`python -m venv .venv` make virtual environment  
-`source .venv/bin/activate` activate virtual environment  
-`pip install -r requirements.txt` install dependancies  
-`playwright install` complete PlayWright installation  
+1. `python -m venv .venv` - make virtual environment  
+2. `source .venv/bin/activate` - activate virtual environment  
+3. `pip install -r requirements.txt` - install dependancies  
+4. `playwright install` - complete PlayWright installation  
 
 ## Run checks 🏃‍♀️
+`pytest tests/test_example.py` To check if PlayWright works correctly.  
 `pytest` Will run test files in the "isp" directory.  
-`pytest tests/test_example.py` to check if PlayWright works ok.  
+
 
 ## Slack webhook notification setup
 1. Open https://api.slack.com/apps in the same window where you logged in to Slack.
