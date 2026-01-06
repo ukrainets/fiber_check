@@ -29,7 +29,7 @@ def main():
     notify_slack("🚀 Fiber internet check scheduler started.")
     
     # Run daily at 7:00 AM
-    schedule.every().day.at("20:12").do(run_fiber_checks)
+    schedule.every().day.at("07:00").do(run_fiber_checks)
                         # use format hh:mm
     
     while True:
