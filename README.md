@@ -19,6 +19,7 @@ It primarily checks the ISPs that are available in the Greater Chicago area.
 ## Run checks 🏃‍♀️
 `pytest tests/test_example.py` To check if PlayWright works correctly.  
 `pytest` Will run test files in the "isp" directory.  
+`python scheduler.py` To start scheduler. 
 
 
 ## Slack webhook notification setup
