@@ -17,10 +17,13 @@
 - Add scheduled test run
     - Satup on the home desktop
 - Containerize it 
+    - https://playwright.dev/python/docs/docker
     - Set up on RPI or NAS Docker container
 
 ---
 ### Issues 
 - AT&T block automation activity `isp/test_att_fiber.py`. 
+    [x] Changing browser settings didn't help `addopts = -vs --browser chromium --browser-channel chrome --headed --slowmo 500`
+    [] 
 - `isp/test_ripple_fiber.py` and `isp/test_tmobile_fiber.py`
     Fails if run in headless mode.
