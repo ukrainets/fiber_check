@@ -13,7 +13,7 @@ load_dotenv()
 SERVICEA_ADDRESS = os.getenv("SERVICE_ADDRESS")
 ISP_URL = "https://www.att.com/internet/fiber/"
 
-@pytest.mark.skip(reason="Temporarily disabled - WIP")
+# @pytest.mark.skip(reason="Temporarily disabled - WIP")
 def test_ezeeFiber(page: Page):
     page.set_default_timeout(10000)
     
