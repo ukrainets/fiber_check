@@ -16,13 +16,13 @@ def test_ezeeFiber(page: Page):
 
     page.goto("https://ezeefiber.com/")
     
-    expect(page.get_by_role("textbox", name="Enter your address")).to_be_visible()
+    expect(page.get_by_role("textbox", name="Enter your address").first).to_be_visible()
     
-    page.get_by_role("textbox", name="Enter your address").click()
+    page.get_by_role("textbox", name="Enter your address").first.click()
     
-    page.get_by_role("textbox", name="Enter your address").fill(SERVICEA_ADDRESS)
+    page.get_by_role("textbox", name="Enter your address").first.fill(SERVICEA_ADDRESS)
     
-    page.get_by_role("textbox", name="Enter your address").press("Enter")
+    page.get_by_role("textbox", name="Enter your address").first.press("Enter")
     
     page.get_by_text("Not yet!").wait_for(state="visible")
 
